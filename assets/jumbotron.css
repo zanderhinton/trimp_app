@@ -1,0 +1,6 @@
+.jumbotron {
+    background-image:   url(soccer_pitch.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
