@@ -8,14 +8,12 @@ import csv as csv
 import numpy as np
 import pandas as pd
 
-
-alt.data_transformers.disable_max_rows()
-
 # create APP
 app = dash.Dash(__name__,
                 assets_folder='assets',
                 external_stylesheets=[dbc.themes.LUX,
                                       'jumbotron.css'])
+server = app.server
 
 # Set title
 app.title = "Player Game-Load Monitoring"
